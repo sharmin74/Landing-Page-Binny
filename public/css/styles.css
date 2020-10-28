@@ -1,0 +1,326 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* NAVBAR */
+
+.mnav {
+    background-color: none;
+    transition-delay: 2s!important;
+}
+
+.mnav.active {
+    /* background-color: #3798C6; */
+    background-color: white;
+    border-bottom: 1px solid lightgray;
+    z-index: 10!important;
+    transition: 0.5s!important;
+}
+
+.navbar__logoimg {
+    height: 80px;
+    width: auto;
+}
+
+
+/* ACTIVITIES PAGE  */
+
+#activities {
+    background-image: url('/photos/activity.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* TOUR  */
+
+.tour {
+    background-image: url('/photos/tourbg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tour__img {
+    width: 230px;
+    height: 170px;
+    border-radius: 5px;
+}
+
+
+/* SPA  */
+
+#spa {
+    background-image: url('/photos/spabg1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* ABOUT US PAGE STYLING */
+
+.aboutus .card {
+    box-shadow: 1px 2px 5px #eee;
+    background: rgb(86, 108, 211);
+    color: white;
+}
+
+.aboutus h3 {
+    font-size: 30px;
+    letter-spacing: 3px;
+    color: #666;
+}
+
+.aboutus h6 {
+    letter-spacing: 2px;
+}
+
+.aboutus a {
+    margin-top: 250px;
+    font-size: 20px;
+    width: 10rem;
+    border-radius: 25px;
+    background-color: #1A1818;
+    border-top: 0px solid;
+    /* background: rgb(86, 108, 211);
+    background: linear-gradient(90deg, rgba(86, 108, 211, 1) 0%, rgba(101, 175, 233, 1) 47%); */
+    box-shadow: 5px 5px 20px black;
+    margin-bottom: 250px;
+}
+
+
+/* CONTACT PAGE STYLING */
+
+.contact-heading {
+    font-weight: bolder;
+    letter-spacing: 2px;
+    margin-top: 150px;
+}
+
+.contact-details {
+    /* background-color: #3797C9; */
+    margin-top: 200px;
+    border: 1px solid lightgray;
+    padding: 20px;
+}
+
+.contact-details img {
+    height: 50px;
+}
+
+.special-button {
+    font-size: 20px;
+    width: 10rem;
+    border-radius: 50px;
+    background-color: #1A1818;
+    border-top: 0px solid;
+    box-shadow: 5px 5px 20px black;
+}
+
+.contact__left {
+    padding: 20px;
+    background-color: #3797C9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact__left>div {
+    text-align: left;
+}
+
+.contact__left>div>div {
+    margin: 70px 0;
+}
+
+.contact__form {
+    width: 90%;
+    margin: auto;
+}
+
+
+/* HOME PAGE STYLING */
+
+.home__caption {
+    color: black;
+    margin-top: 250px;
+    width: 40%;
+}
+
+.home__caption>h1 {
+    font-size: 3.8rem;
+}
+
+.home__title {
+    margin: 300px 0 0 0;
+}
+
+.text__colour {
+    color: #3797C9;
+}
+
+.home__carousel {
+    margin-top: 190px;
+}
+
+.home__img {
+    height: 210px;
+}
+
+.home__captionButton {
+    font-weight: bold;
+    width: 40%;
+    background-color: #3797C9;
+    padding: 12px;
+}
+
+.home__captionButton:hover {
+    background-color: #4ea0c9;
+}
+
+.homeCard__btn {
+    background-color: #3797C9;
+    padding: 10 12px;
+}
+
+.homeCard__btn:hover {
+    background-color: #4ea0c9!important;
+}
+
+.home__card {
+    border: none;
+    /* background: rgb(86, 108, 211)!important;
+    background: linear-gradient(90deg, rgba(86, 108, 211, 1) 0%, rgba(101, 175, 233, 1) 47%)!important; */
+}
+
+
+/* background: rgb(198, 211, 215);
+background: linear-gradient(90deg, rgba(198, 211, 215, 1) 0%, rgba(255, 255, 255, 1) 100%); */
+
+
+/* FOOTER STYLING  */
+
+#footer {
+    /* background: rgb(86, 108, 211)!important;
+    background: linear-gradient(90deg, rgba(86, 108, 211, 1) 0%, rgba(101, 175, 233, 1) 47%)!important; */
+    background-color: white;
+    margin-top: 170px;
+    text-align: left;
+    height: auto;
+    border-top: 1px solid lightgray;
+}
+
+#footer a {
+    color: black;
+    text-decoration: none;
+}
+
+#footer a:hover {
+    color: darkgray;
+}
+
+#footer i {
+    color: black;
+}
+
+#footer i:hover {
+    color: darkgray;
+}
+
+.footer-data {
+    text-align: left;
+    padding: 50px 60px;
+}
+
+.footer-data>p {
+    margin: 3px;
+}
+
+.fa_custom {
+    color: black;
+    padding: 4px;
+}
+
+.footer-copyright {
+    text-align: center;
+    padding: 15px 50px;
+}
+
+.footer-copyright p {
+    margin-bottom: 0;
+}
+
+.footer-copyright a {
+    color: #909898;
+}
+
+.footer-copyright a:hover {
+    color: #909898;
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 800px) {
+    .navbar__logoimg {
+        height: 60px;
+        width: auto;
+    }
+    .nav__btn {
+        padding: 10px;
+    }
+    /* HOME PAGE STYLING */
+    .home__carousel {
+        margin-top: 70px;
+    }
+    .home__caption {
+        visibility: hidden;
+        color: black;
+        margin-top: 10px;
+        width: 40%;
+    }
+    .home__title {
+        margin: 0px 0 150px 0;
+    }
+    .home__caption {
+        color: black;
+        width: 80%;
+        margin: 90px auto 0;
+    }
+    .home__caption>h1 {
+        font-size: 2rem;
+    }
+    .contact__left {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap-reverse;
+    }
+    .contact__left>div {
+        text-align: center;
+    }
+    .contact__left>div>div {
+        margin: 50px 0;
+    }
+    .contact__form {
+        width: auto;
+        margin: auto;
+    }
+    #footer {
+        margin-top: 70px;
+    }
+}
