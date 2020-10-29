@@ -1,67 +1,56 @@
 <%- include("partials/header") -%>
 
-    <!-- <div class="contact-heading text-center">
+    <div class="contact-heading text-center">
         <h2 class="mt-5">CONTACT US</h2>
         <p style="letter-spacing: normal; font-weight: normal;">We are located in Mumbai, India. Feel free to use the <br> contact form to reach out to us.</p>
-    </div> -->
+    </div>
 
-    <div class="container contact-details">
+    <div class="container mt-5 contact-details">
 
-        <div class="container row">
-            <div class="col col-lg-6 col-md-12 col-sm-12 text-center contact__left">
-                <!-- <h6 class="mt-5 mb-3">OUR CONTACT DETAILS</h6> -->
-                <div class="">
-                    <!-- <small> -->
-                    <!-- <img class="mt-5 mb-3" src="/photos/mail.png" alt=""> -->
-                    <div>
-                        <p><b><i class="fa fa-envelope-o fa_custom"></i> GENERAL SUPPORT</b></p>
-                        <p>booking@trolleydolly.com</p>
-                    </div>
+        <div class="row">
+            <div class="col col-lg-5 col-md-12 col-sm-12 text-center">
+                <h6 class="mt-5 mb-3">OUR CONTACT DETAILS</h6>
+                <br>
+                <div class="text-center contact__left">
+                    <small>
+                    <img class="mt-1 mb-3" src="/photos/mail.png" alt="">
+                    <p><b>MAIL</b></p>
+                    <p>booking@trolleydolly.com</p>
                     <!-- <hr style="width: 300px;"> -->
-                    <!-- <img class="mt-5 mb-3" src="/photos/whatsapp.png" alt=""> -->
-                    <div>
-                        <p><b> <i class="fa fa-whatsapp fa_custom" aria-hidden="true"></i>
-                        WHATSAPP</b></p>
-                        <p>+919898989999</p>
-                    </div>
+                    <img class="mt-5 mb-3" src="/photos/whatsapp.png" alt="">
+                    <p><b>WHATSAPP</b></p>
+                    <p>+91 9898989899</p>
                     <!-- <hr  style="width: 300px;"> -->
-                    <!-- <img class="mt-5 mb-3" src="/photos/phone-call.png" alt=""> -->
-                    <div>
-                        <p><b> <i class="fa fa-phone fa_custom" aria-hidden="true"></i>LET'S TALK</b></p>
-                        <p>+919898989999</p>
-                    </div>
+                    <img class="mt-5 mb-3" src="/photos/phone-call.png" alt="">
+                    <p><b>PHONE SUPPORT</b></p>
+                    <p>+91 9898989899</p>
                     <!-- <hr style="width: 300px;"> -->
-                    <!-- </small> -->
+                </small>
                 </div>
             </div>
-            <div class="col col-lg-6 col-md-12 col-sm-12">
-                <h2 class="text-center">SEND US A MESSAGE!</h2>
-                <form action=”mailto:sangeeta3112002@gmail.com” class="contact__form" method=”POST” enctype=”multipart/form-data” name=”EmailTestForm”>
+            <div class="col col-lg-7 col-md-12 col-sm-12">
+                <form action=”mailto:sangeeta3112002@gmail.com” method=”POST” enctype=”multipart/form-data” name=”EmailTestForm”>
                     <div class="form-group mt-5 mb-3">
-                        <!-- <label for="name">Name</label> -->
-                        <input type="text" class="form-control" id="name" name="name" placeholder="Name"></textarea>
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" name="name"></textarea>
                     </div>
-                    <br>
                     <div class="form-group">
-                        <!-- <label for="hotel">The hotel in which you are staying</label> -->
-                        <input type="text" class="form-control" id="hotel" name="hotel" placeholder="Name of the hotel in which you are staying"></textarea>
+                        <label for="hotel">The hotel in which you are staying</label>
+                        <input type="text" class="form-control" id="hotel" name="hotel"></textarea>
                     </div>
-                    <br>
                     <div class="form-group">
-                        <!-- <label for="email">Email address</label> -->
-                        <input type="email" class="form-control" id="email" name="email" placeholder="Email" aria-describedby="emailHelp">
+                        <label for="email">Email address</label>
+                        <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp">
                     </div>
-                    <br>
                     <div class="form-group">
-                        <!-- <label for="phoneno">Phone Number</label> -->
-                        <input type="text" class="form-control" id="phoneno" name="phoneno" placeholder="Phone Number"></textarea>
+                        <label for="phoneno">Phone Number</label>
+                        <input type="text" class="form-control" id="phoneno" name="phoneno"></textarea>
                     </div>
-                    <br>
                     <div class="form-group">
-                        <!-- <label for="message">Message</label> -->
-                        <textarea class="form-control" id="message" rows="5" name="message" placeholder="Your Message"></textarea>
+                        <label for="message">Message</label>
+                        <textarea class="form-control" id="message" rows="5" name="message"></textarea>
                     </div>
-                    <div class="text-center"><button class="btn homeCard__btn">Send</button></div>
+                    <div class="text-center"><button class="btn btn-primary">Send</button></div>
                 </form>
             </div>
 

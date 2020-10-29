@@ -14,8 +14,8 @@ router.get('/tour', (req, res) => {
     res.render('tour');
 });
 
-router.get('/activities', (req, res) => {
-    res.render('activities');
+router.get('/food-services', (req, res) => {
+    res.render('foodServices');
 });
 
 router.get('/spa', (req, res) => {

@@ -14,6 +14,7 @@ body {
 .mnav.active {
     /* background-color: #3798C6; */
     background-color: white;
+    /* background-color: whitesmoke; */
     border-bottom: 1px solid lightgray;
     z-index: 10!important;
     transition: 0.5s!important;
@@ -28,7 +29,7 @@ body {
 /* ACTIVITIES PAGE  */
 
 #activities {
-    background-image: url('/photos/activity.jpg');
+    background-image: url('/photos/food5.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     height: 30rem;
@@ -58,6 +59,15 @@ body {
     border-radius: 5px;
 }
 
+.tour__container {
+    margin-bottom: 40px;
+}
+
+.tour__container h5 {
+    text-align: left;
+    margin: 10px 0 10px 0;
+}
+
 
 /* SPA  */
 
@@ -74,6 +84,34 @@ body {
 
 
 /* ABOUT US PAGE STYLING */
+
+.about {
+    background-image: url('/photos/about.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about__para {
+    width: 80%;
+    margin: auto;
+}
+
+.about__image {
+    margin-top: 200px;
+}
+
+.about__help {
+    margin-top: 130px;
+}
+
+.aboutus {
+    margin-top: 100px;
+}
 
 .aboutus .card {
     box-shadow: 1px 2px 5px #eee;
@@ -92,16 +130,16 @@ body {
 }
 
 .aboutus a {
-    margin-top: 250px;
-    font-size: 20px;
-    width: 10rem;
-    border-radius: 25px;
-    background-color: #1A1818;
-    border-top: 0px solid;
+    /* margin-top: 250px; */
+    /* font-size: 20px; */
+    /* width: 10rem; */
+    /* border-radius: 25px; */
+    /* background-color: #1A1818; */
+    /* border-top: 0px solid; */
     /* background: rgb(86, 108, 211);
     background: linear-gradient(90deg, rgba(86, 108, 211, 1) 0%, rgba(101, 175, 233, 1) 47%); */
-    box-shadow: 5px 5px 20px black;
-    margin-bottom: 250px;
+    /* box-shadow: 5px 5px 20px black; */
+    /* margin-bottom: 250px; */
 }
 
 
@@ -116,7 +154,7 @@ body {
 .contact-details {
     /* background-color: #3797C9; */
     margin-top: 200px;
-    border: 1px solid lightgray;
+    /* border: 1px solid lightgray; */
     padding: 20px;
 }
 
@@ -133,20 +171,26 @@ body {
     box-shadow: 5px 5px 20px black;
 }
 
-.contact__left {
+
+/* .contact__left {
     padding: 20px;
     background-color: #3797C9;
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} */
 
-.contact__left>div {
+
+/* .contact__left>div {
     text-align: left;
 }
 
 .contact__left>div>div {
     margin: 70px 0;
+} */
+
+.contact__left p {
+    margin: 0;
 }
 
 .contact__form {
@@ -276,6 +320,9 @@ background: linear-gradient(90deg, rgba(198, 211, 215, 1) 0%, rgba(255, 255, 255
 }
 
 @media only screen and (max-width: 800px) {
+    #navbar {
+        background-color: white;
+    }
     .navbar__logoimg {
         height: 60px;
         width: auto;
@@ -310,6 +357,20 @@ background: linear-gradient(90deg, rgba(198, 211, 215, 1) 0%, rgba(255, 255, 255
         align-items: center;
         flex-wrap: wrap-reverse;
     }
+    .tour__container {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .tour__container h5 {
+        text-align: center;
+    }
+    .tour__container>div {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    /* .about__helpRight a {
+        margin-left: 0px;
+    } */
     .contact__left>div {
         text-align: center;
     }
