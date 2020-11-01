@@ -1,10 +1,17 @@
 body {
     margin: 0;
     padding: 0;
+    /* background-image: url('/photos/bg8.jpg');
+    background-repeat: no-repeat;
+    background-size: contain; */
 }
 
 
 /* NAVBAR */
+
+#navbar {
+    color: white;
+}
 
 .mnav {
     background-color: none;
@@ -21,7 +28,8 @@ body {
 }
 
 .navbar__logoimg {
-    height: 100px;
+    padding: 0;
+    height: 90px;
     width: auto;
 }
 
@@ -56,7 +64,7 @@ body {
 .tour__img {
     width: 230px;
     height: 170px;
-    border-radius: 5px;
+    border-radius: 2px;
 }
 
 .tour__container {
@@ -201,14 +209,47 @@ body {
 
 /* HOME PAGE STYLING */
 
+.home::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #333;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: .4;
+    z-index: 0;
+}
+
+.home {
+    background-image: url('/photos/bg7.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    position: relative;
+    /* height: 795px; */
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home>* {
+    z-index: 10;
+    position: relative;
+}
+
 .home__caption {
-    color: black;
-    margin-top: 250px;
-    width: 40%;
+    /* color: black; */
+    color: white;
+    text-align: center;
+    width: 60%;
 }
 
 .home__caption>h1 {
-    font-size: 3.8rem;
+    font-size: 4.5rem;
+    font-weight: lighter;
 }
 
 .home__title {
@@ -228,14 +269,19 @@ body {
 }
 
 .home__captionButton {
+    color: white;
     font-weight: bold;
     width: 40%;
-    background-color: #3797C9;
+    /* background-color: #3797C9; */
+    background-color: #18181A;
+    border-color: #18181A;
     padding: 12px;
 }
 
 .home__captionButton:hover {
-    background-color: #4ea0c9;
+    color: white;
+    background-color: #18181A;
+    border-color: #18181A;
 }
 
 .homeCard__btn {
@@ -331,22 +377,23 @@ background: linear-gradient(90deg, rgba(198, 211, 215, 1) 0%, rgba(255, 255, 255
         padding: 10px;
     }
     /* HOME PAGE STYLING */
+    .home {
+        margin-top: 90px;
+        background-image: url('/photos/bg7.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        position: relative;
+        height: 350px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     .home__carousel {
         margin-top: 70px;
     }
-    .home__caption {
-        visibility: hidden;
-        color: black;
-        margin-top: 10px;
-        width: 40%;
-    }
     .home__title {
         margin: 0px 0 150px 0;
-    }
-    .home__caption {
-        color: black;
-        width: 80%;
-        margin: 90px auto 0;
     }
     .home__caption>h1 {
         font-size: 2rem;
