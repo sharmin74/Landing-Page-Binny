@@ -1,0 +1,63 @@
+<%- include("partials/header") -%>
+
+    <div class="contact-heading text-center">
+        <h2 class="mt-5">CONTACT US.</h2>
+        <p style="letter-spacing: normal; font-weight: normal;">We are located in Mumbai, India. Feel free to use the <br> contact form to reach out to us.</p>
+    </div>
+
+    <div class="container mt-5 contact-details">
+
+        <div class="row">
+            <div class="col-12 col-lg-5 col-md-12 col-sm-12 text-center">
+                <h6 class="mt-5 mb-3">OUR CONTACT DETAILS</h6>
+                <br>
+                <div class="text-center contact__left">
+                    <small>
+                    <img class="mt-1 mb-3" src="/photos/Contact/mail.png" alt="">
+                    <p><b>MAIL</b></p>
+                    <p>booking@trolleydolly.com</p>
+                    <!-- <hr style="width: 300px;"> -->
+                    <img class="mt-5 mb-3" src="/photos/Contact/whatsapp.png" alt="">
+                    <p><b>WHATSAPP</b></p>
+                    <p>+91 9898989899</p>
+                    <!-- <hr  style="width: 300px;"> -->
+                    <img class="mt-5 mb-3" src="/photos/Contact/phone-call.png" alt="">
+                    <p><b>PHONE SUPPORT</b></p>
+                    <p>+91 9898989899</p>
+                    <!-- <hr style="width: 300px;"> -->
+                </small>
+                </div>
+            </div>
+            <div class="col-12 col-lg-7 col-md-12 col-sm-12">
+                <form action=”mailto:sangeeta3112002@gmail.com” method=”POST” enctype=”multipart/form-data” name=”EmailTestForm”>
+                    <div class="form-group mt-5 mb-3">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" name="name"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="hotel">The hotel in which you are staying</label>
+                        <input type="text" class="form-control" id="hotel" name="hotel"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email address</label>
+                        <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp">
+                    </div>
+                    <div class="form-group">
+                        <label for="phoneno">Phone Number</label>
+                        <input type="text" class="form-control" id="phoneno" name="phoneno"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea class="form-control" id="message" rows="5" name="message"></textarea>
+                    </div>
+                    <div class="text-center"><button class="btn btn-primary">Send</button></div>
+                </form>
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+    <%- include("partials/footer") -%>
