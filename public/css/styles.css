@@ -163,6 +163,22 @@ h1, h2, h3, h4 {
 
 
 
+/* testimonials section */
+
+.testimonials {
+    margin: 250px 100px 0 0;
+}
+
+.testimonial__content {
+    /* padding: 30px; */
+    /* width: 100%; */
+}
+
+.carousel-indicators li {
+    background-color: black;
+}
+
+
 
 /* TOUR  */
 
@@ -200,6 +216,16 @@ h1, h2, h3, h4 {
 
 .tour__heading p {
     color: #777;
+}
+
+
+.tour__card {
+    border: 0;
+}
+
+.tour__cardcontent {
+    color: #666;
+    font-size: 19px;
 }
 
 /* SPA  */
