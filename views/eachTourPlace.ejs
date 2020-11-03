@@ -1,0 +1,24 @@
+<%- include("partials/header") -%>
+
+
+    <div class=" container eachTourPlace">
+        <div class="row ">
+            <div class="col">
+                <img class="eachTourPlace__img" src="<%= src %> " alt="img">
+            </div>
+            <div class="col">
+                <h1>
+                    <%= name %>
+                </h1>
+                <p>
+                    <%= info %>
+                </p>
+                <div class="mt-3">
+                    <!-- <button class="btn btn-dark"><a class="tour__link" href="/tour"> Back to tours</a></button> -->
+                    <button class="btn btn-dark" onclick="history.back()">Back to tours</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <%- include("partials/footer") -%>

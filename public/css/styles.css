@@ -1,0 +1,523 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.home__contactbtn {
+    padding: 10px 30px;
+    color: white;
+    border-radius: 0%;
+    color: none;
+    border: 2px double white;
+    letter-spacing: 2px;
+    box-shadow: 0px 0px 3px white;
+}
+
+.home__contactbtn:hover {
+    color: black;
+    border-color: white;
+    background-color: white;
+}
+
+
+/* Navbar */
+
+#navbar {
+    color: white;
+}
+
+.mnav {
+    background-color: none;
+    transition-delay: 2s!important;
+}
+
+.mnav.active {
+    background-color: white;
+    border-bottom: 1px solid lightgray;
+    z-index: 10!important;
+    transition: 0.5s!important;
+}
+
+.navbar__logoimg {
+    padding: 0;
+    height: 90px;
+    width: auto;
+}
+
+
+/* HOME PAGE STYLING */
+
+.home::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #333;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: .5;
+    z-index: 0;
+}
+
+.home {
+    background-image: url('/photos/Background/bg9.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    position: relative;
+    /* height: 795px; */
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home__logo {
+    height: 250px;
+}
+
+.home>* {
+    z-index: 10;
+    position: relative;
+}
+
+.home__caption {
+    /* color: black; */
+    color: white;
+    text-align: center;
+    width: 60%;
+}
+
+.home__caption>h1 {
+    font-size: 3.5rem;
+    font-weight: lighter;
+}
+
+.home__title {
+    margin: 150px 0 0 0;
+}
+
+.home__title p {
+    color: #666;
+}
+
+.home__exploretext {
+    color: #666;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.home__carousel {
+    margin-top: 190px;
+}
+
+.home__img {
+    height: 220px;
+}
+
+.home__captionButton {
+    color: white;
+    font-weight: bold;
+    width: 40%;
+    /* background-color: #3797C9; */
+    background-color: #18181A;
+    border-color: #18181A;
+    padding: 12px;
+}
+
+.home__captionButton:hover {
+    color: white;
+    background-color: #18181A;
+    border-color: #18181A;
+}
+
+.homeCard__btn {
+    background-color: #3797C9;
+    padding: 10 12px;
+}
+
+.homeCard__link {
+    color: white;
+}
+
+.homeCard__link:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.home__card {
+    border: none;
+}
+
+
+/* TOUR  */
+
+.tour {
+    background-image: url('/photos/Tour/tourbg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.tour__img {
+    /* width: 230px;
+    height: 170px;
+    border-radius: 5px; */
+    height: 250px;
+    width: auto;
+}
+
+.tour__collage {
+    width: 380px;
+    height: 370px;
+}
+
+.tour__otherPlaces {
+    margin-top: 100px;
+}
+
+.tour__end {
+    margin-top: 150px;
+}
+
+.tour__link {
+    color: white;
+}
+
+.tour__link:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.tour__container {
+    margin-bottom: 40px;
+}
+
+.tour__container h5 {
+    text-align: center;
+    margin: 10px 0 10px 0;
+}
+
+.tour__heading {
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.tour__heading p {
+    color: #777;
+}
+
+
+/* eachTourPlace  */
+
+.eachTourPlace {
+    margin-top: 300px;
+}
+
+.eachTourPlace__img {
+    width: 420px;
+    height: 400px;
+}
+
+
+/* SPA  */
+
+#spa {
+    background-image: url('/photos/Spa/spabg1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
+/* ABOUT US PAGE STYLING */
+
+.about {
+    background-image: url('/photos/About/about.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about__para {
+    width: 80%;
+    margin: auto;
+}
+
+.about__image {
+    margin-top: 200px;
+}
+
+.about__help {
+    margin-top: 130px;
+}
+
+.aboutus {
+    margin-top: 100px;
+}
+
+.aboutus h3 {
+    font-size: 30px;
+    letter-spacing: 3px;
+    color: #666;
+}
+
+.aboutus h6 {
+    letter-spacing: 2px;
+}
+
+.aboutus {
+    /* margin-top: 250px; */
+    /* font-size: 20px; */
+    /* width: 10rem; */
+    /* border-radius: 25px; */
+    /* background-color: #1A1818; */
+    /* border-top: 0px solid; */
+    /* background: rgb(86, 108, 211);
+    background: linear-gradient(90deg, rgba(86, 108, 211, 1) 0%, rgba(101, 175, 233, 1) 47%); */
+    /* box-shadow: 5px 5px 20px black; */
+    /* margin-bottom: 250px; */
+}
+
+
+/* CONTACT PAGE STYLING */
+
+.contact-heading {
+    font-weight: bolder;
+    letter-spacing: 2px;
+    margin-top: 150px;
+}
+
+.contact-details {
+    /* background-color: #3797C9; */
+    margin-top: 200px;
+    /* border: 1px solid lightgray; */
+    padding: 20px;
+}
+
+.contact-details img {
+    height: 50px;
+}
+
+.special-button {
+    font-size: 20px;
+    width: 10rem;
+    border-radius: 50px;
+    background-color: #1A1818;
+    border-top: 0px solid;
+    box-shadow: 5px 5px 20px black;
+}
+
+
+/* .contact__left {
+    padding: 20px;
+    background-color: #3797C9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+
+/* .contact__left>div {
+    text-align: left;
+}
+
+.contact__left>div>div {
+    margin: 70px 0;
+} */
+
+.contact__left p {
+    margin: 0;
+}
+
+.contact__form {
+    width: 90%;
+    margin: auto;
+}
+
+
+/* food page styling */
+
+#food {
+    background-image: url('/photos/Food/food5.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* FOOTER STYLING  */
+
+#footer {
+    background-color: white;
+    margin-top: 170px;
+    text-align: left;
+    height: auto;
+    border-top: 1px solid lightgray;
+}
+
+#footer a {
+    color: black;
+    text-decoration: none;
+}
+
+#footer a:hover {
+    color: darkgray;
+}
+
+#footer i {
+    color: black;
+}
+
+#footer i:hover {
+    color: darkgray;
+}
+
+.footer-data {
+    text-align: left;
+    padding: 50px 60px;
+}
+
+.footer-data>p {
+    margin: 3px;
+}
+
+.fa_custom {
+    color: black;
+    padding: 4px;
+}
+
+.footer-copyright {
+    text-align: center;
+    padding: 15px 50px;
+}
+
+.footer-copyright p {
+    margin-bottom: 0;
+}
+
+.footer-copyright a {
+    color: #909898;
+}
+
+.footer-copyright a:hover {
+    color: #909898;
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 800px) {
+    #navbar {
+        background-color: white;
+    }
+    .navbar__logoimg {
+        height: 60px;
+        width: auto;
+    }
+    .nav__btn {
+        padding: 10px;
+    }
+    /* HOME PAGE STYLING */
+    .home {
+        background-image: url('/photos/Background/bg7.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        position: relative;
+        margin-top: 90px;
+        height: 360px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .home__carousel {
+        margin-top: 70px;
+    }
+    .home__title {
+        margin: 0px 0 150px 0;
+    }
+    .home__caption {
+        color: white;
+        width: 80%;
+        margin: 30px auto 0;
+    }
+    .home__caption>h1 {
+        font-size: 2rem;
+    }
+    .contact__left {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap-reverse;
+    }
+    .tour__container {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .tour__container h5 {
+        text-align: center;
+    }
+    .tour__container>div {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .tour__img {
+        height: 150px;
+        width: auto;
+    }
+    .tour__collage {
+        text-align: center;
+        width: auto;
+        height: 300px;
+    }
+    .eachTourPlace {
+        margin-top: 150px;
+    }
+    .eachTourPlace__img {
+        width: auto;
+        height: 250px;
+    }
+    .contact__left>div {
+        text-align: center;
+    }
+    .contact__left>div>div {
+        margin: 50px 0;
+    }
+    .contact__form {
+        width: auto;
+        margin: auto;
+    }
+    #footer {
+        margin-top: 70px;
+    }
+}
