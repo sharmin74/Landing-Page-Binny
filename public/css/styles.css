@@ -2,7 +2,6 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Lato', sans-serif;
-    background-color: #eee;
 }
 
 
@@ -64,7 +63,7 @@ h4
 }
 
 .mnav.active {
-    background-color: #e9ecef;
+    background-color: #abc4ff;
     border-bottom: 1px solid lightgray;
     z-index: 10!important;
     transition: 0.5s!important;
@@ -72,7 +71,7 @@ h4
 
 .navbar__logoimg {
     padding: 0;
-    height: 90px;
+    height: 110px;
     width: auto;
 }
 
@@ -581,7 +580,7 @@ h4
         position: static;
     }
     #carousel-inner-testimonials {
-        background-color: #23272B;
+        background-color: #14213d;
         height: 500px;
     }
     .carousel-control-prev {
