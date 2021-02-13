@@ -261,7 +261,8 @@ h2, h3, h4 {
 
 .home__benefits__content {
     background-color: #CACFD3;
-    padding-bottom: 100px;
+    padding-top: 70px;
+    padding-bottom: 250px;
     background-image: url("https://www.transparenttextures.com/patterns/always-grey.png");
 }
 
@@ -324,8 +325,8 @@ h2, h3, h4 {
 
 
 #testimonials {
-    padding-top: 130px;
-    padding-bottom: 50px;
+    padding-top: 200px;
+    padding-bottom: 250px;
     background-color: #5c677d;
     background-image: url("https://www.transparenttextures.com/patterns/inspiration-geometry.png");
 }
@@ -376,14 +377,15 @@ h2, h3, h4 {
 
 
 /* TOUR  */
-/* #355764
-#AE896C */
+/* #B17651
+#5B0E0B
+#827776 */
 
 .tour {
     background-image: url('/photos/Background/bg8.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 40rem;
+    height: 50rem;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -413,6 +415,11 @@ h2, h3, h4 {
 .tour__page h2 {
     color: #050a0c;
 }
+
+.tour__page h3 {
+    color: #121212;
+}
+
 
 .tour__img {
     /* width: 230px;
@@ -470,7 +477,7 @@ h2, h3, h4 {
 /* eachTourPlace  */
 
 .eachTourPlace {
-    padding-top: 300px;
+    padding-top: 200px;
     background-color: #89c2d9;
     background-image: url("https://www.transparenttextures.com/patterns/climpek.png");
     padding-bottom: 100px;
@@ -886,9 +893,6 @@ background-image: url("https://www.transparenttextures.com/theme/images/transpar
         text-align: center;
         width: auto;
         height: 300px;
-    }
-    .eachTourPlace {
-        margin-top: 150px;
     }
     .eachTourPlace__img {
         width: auto;
