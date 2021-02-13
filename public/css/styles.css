@@ -616,6 +616,7 @@ background-image: url("https://www.transparenttextures.com/theme/images/transpar
 #5ca4a9
 #e6ebe0 */
 .contact__page {
+    padding: 30px;
     padding-bottom: 100px;
     background-color: #ffffff;
     background-image: url("https://www.transparenttextures.com/patterns/blizzard.png");
