@@ -6,6 +6,23 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+.box {
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12)
+  ;
+   
+    /* min-height: 200px;
+    width: 50vw; */
+    margin: 0 auto;
+    background: white;
+    border-radius: 5px;
+  }
+
 .sidenav {
     height: 100%;
     width: 0;
@@ -13,8 +30,9 @@ body {
     z-index: 300;
     top: 0;
     left: 0;
-    background-color: white;
-    background-image: url("https://www.transparenttextures.com/patterns/flowers.png");
+    background-color: #F3EFEE;
+    background-image: url("https://www.transparenttextures.com/patterns/inspiration-geometry.png");
+    /* background-image: url("https://www.transparenttextures.com/patterns/flowers.png"); */
     color: #666;
     overflow-x: hidden;
     transition: 0.5s;
@@ -263,7 +281,7 @@ h2, h3, h4 {
     background-color: #CACFD3;
     padding-top: 70px;
     padding-bottom: 250px;
-    background-image: url("https://www.transparenttextures.com/patterns/always-grey.png");
+    /* background-image: url("https://www.transparenttextures.com/patterns/always-grey.png"); */
 }
 
 .home__title p {
@@ -278,7 +296,7 @@ h2, h3, h4 {
 
 .home__carousel {
     padding-top: 190px;
-    background-color: #979dac;
+    /* background-color: #979dac; */
     padding-bottom: 400px;
 }
 
@@ -394,7 +412,8 @@ h2, h3, h4 {
 }
 
 .tour__page {
-    background-color: #3a606e;
+    /* background-color: #3a606e; */
+    background-color: #eee;
     padding-bottom: 50px;
 }
 
@@ -448,7 +467,8 @@ h2, h3, h4 {
 
 
 .tour__end {
-    background-color: #76939B;
+    /* background-color: #76939B; */
+    background-color: #eee;
     padding-top: 150px;
     padding-bottom: 150px;
 }
@@ -524,7 +544,8 @@ h2, h3, h4 {
 }
 
 .spa__container {
-    background-color: #CBCCC6;
+    /* background-color: #CBCCC6; */
+    background-color: #faf9f9;
 background-image: url("https://www.transparenttextures.com/theme/images/transparent.png");
 }
 
@@ -632,7 +653,7 @@ background-image: url("https://www.transparenttextures.com/theme/images/transpar
 
 
 .contact__page a {
-    color: #00a8e8;
+    color: #394989;
 }
 
 .contact__page__btn b {
@@ -641,11 +662,11 @@ background-image: url("https://www.transparenttextures.com/theme/images/transpar
 
 .contact-heading {
     font-weight: bolder;
-    background-color: #00a8e8;
+    background-color: #6f4a8e;
     /* background-image: url("https://www.transparenttextures.com/patterns/xv.png"); */
-    background-image: url("https://www.transparenttextures.com/patterns/vichy.png");
+    /* background-image: url("https://www.transparenttextures.com/patterns/vichy.png"); */
     letter-spacing: 2px;
-    color: #003459;
+    color: #fff48f;
     padding: 20px;
     padding-top: 150px;
     padding-bottom: 150px;
@@ -654,14 +675,14 @@ background-image: url("https://www.transparenttextures.com/theme/images/transpar
 .contact__page__btn {
     padding: 10px 20px;
     color: white;
-    background-color: #00a8e8;
+    background-color: #6f4a8e;
     border-radius: 5px;
     border: 0;
 }
 
 .contact__page__btn:hover {
     
-    background-color: #007ea7;
+    background-color: #394989;
 }
 
 .contact-details {
@@ -669,7 +690,7 @@ background-image: url("https://www.transparenttextures.com/theme/images/transpar
     margin-top: 200px;
     /* border: 1px solid lightgray; */
     padding: 20px;
-    color: #007ea7;
+    color: #6f4a8e;
 }
 
 .contact-details img {
@@ -745,7 +766,7 @@ background-image: url("https://www.transparenttextures.com/theme/images/transpar
 
 #footer {
     background-color: black;
-    background-image: url("https://www.transparenttextures.com/patterns/flowers.png");
+    /* background-image: url("https://www.transparenttextures.com/patterns/flowers.png"); */
     text-align: left;
     height: auto;
 }
